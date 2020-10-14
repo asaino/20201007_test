@@ -1,62 +1,102 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>SimpleFood</title>
     <link rel="stylesheet" href="ress.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 
-    <body>
+<body>
+    <div class="inner">
         <header>
-        <h1><img src="images/img_logo.png" alt=""></h1>
-        <nav class="global-nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
+            <h1><img src="images/img_logo.png" alt=""></h1>
+            <nav class="global-nav">
+                <ul>
+                    <li><a class="home" href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
         </header>
-       
+
         <main>
-        <div class="menu-all">
-            <article>
-              <img src="images/pic_menu01.png">
-                <h2>Butternut Squash Soup</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
-            </article>
-            <article>
-                <img src="images/pic_menu02.png">
-                  <h2>Berries Smoothie</h2>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
-              </article>
-              <article>
-                <img src="images/pic_menu03.png">
-                  <h2>Vegetarian Dumplings</h2>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
-              </article>
-              <article>
-                <img src="images/pic_menu04.png">
-                  <h2>Spicy Noodles</h2>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
-              </article>
-              </div>
+            <div class="menu-all">
+                <article>
+                    <img src="images/pic_menu01.png">
+                    <div class="menu-item">
+                        <h2>Butternut Squash Soup</h2>
+                        <p class="menu-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod
+                            tempor invidunt.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/pic_menu02.png">
+                    <div class="menu-item">
+                        <h2>Berries Smoothie</h2>
+                        <p class="menu-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod
+                            tempor invidunt.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/pic_menu03.png">
+                    <div class="menu-item">
+                        <h2>Vegetarian Dumplings</h2>
+                        <p class="menu-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod
+                            tempor invidunt.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/pic_menu04.png">
+                    <div class="menu-item">
+                        <h2>Spicy Noodles</h2>
+                        <p class="menu-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod
+                            tempor invidunt.
+                        </p>
+                    </div>
+                </article>
+            </div>
+    </div>
 
-              <div class="newsletter">
-                  <h3>Subscribe to newsletter</h3>
-                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt 
-                    ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                    <a href="#">Add my email to the list</a>
-                    
-              </div>
-              </main>
+    <div class="newsletter">
+        <div class="inner">
+            <h3>Subscribe to newsletter</h3>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+            <a class="list-btn" href="#">Add my email to the list</a>
 
-              <footer>
-                  <p><small>Copyright @ Simple Food 2020</small></p>
-              </footer>
+            <dl>
+                <dt>Address</dt>
+                <dd>2, Lorem Street, Plymouth,
+                    Devon,</dd>
+            </dl>
+            <dl>
+                <dt>Email</dt>
+                <dd>loremipsum@yoursite.com</dd>
+            </dl>
+            <dl>
+                <dt>Tel</dt>
+                <dd>0800–000-000</dd>
+            </dl>
+        </div>
+    </div>
+    </main>
 
-        </body>
-    
+    <footer>
+        <p><small>Copyright @ Simple Food 2020</small></p>
+    </footer>
+
+
+
+</body>
+
+</html>
